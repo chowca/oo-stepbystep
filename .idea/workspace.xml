@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dad6b1ea-1f37-48a3-b7b2-bd2dfc82c777" name="Default Changelist" comment="" />
+    <list default="true" id="dad6b1ea-1f37-48a3-b7b2-bd2dfc82c777" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/oocl/ClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +36,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1aCYWYOjPbU9w5KDiAqFM0hCNXn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,12 +44,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -46,8 +61,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.oocl in oo-stepbystep">
-    <configuration name="PersonTest.should_get_person_name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ClassTest.should_get_class_detail">
+    <configuration name="ClassTest.should_get_class_detail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -56,14 +71,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.PersonTest" />
-      <option name="METHOD_NAME" value="should_get_person_name" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.ClassTest" />
+      <option name="METHOD_NAME" value="should_get_class_detail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.should_get_student_introduction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassTest.should_get_class_introduction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +87,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.StudentTest" />
-      <option name="METHOD_NAME" value="should_get_student_introduction" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.ClassTest" />
+      <option name="METHOD_NAME" value="should_get_class_introduction" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClassTest.should_get_class_detail" />
+        <item itemvalue="JUnit.ClassTest.should_get_class_introduction" />
         <item itemvalue="JUnit.com.oocl in oo-stepbystep" />
         <item itemvalue="JUnit.TeacherTest" />
         <item itemvalue="JUnit.TeasherTest" />
-        <item itemvalue="JUnit.StudentTest.should_get_student_introduction" />
-        <item itemvalue="JUnit.PersonTest.should_get_person_name" />
       </list>
     </recent_temporary>
   </component>
@@ -154,37 +169,37 @@
       <screen x="0" y="0" width="1426" height="911" />
     </state>
     <state x="306" y="114" key="#Project_Structure/0.0.1426.911@0.0.1426.911" timestamp="1586241639379" />
-    <state x="519" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1586243255680">
+    <state x="519" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1586246485584">
       <screen x="0" y="0" width="1426" height="911" />
     </state>
-    <state x="519" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1426.911@0.0.1426.911" timestamp="1586243255680" />
-    <state width="1383" height="239" key="GridCell.Tab.0.bottom" timestamp="1586243900229">
+    <state x="519" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1426.911@0.0.1426.911" timestamp="1586246485584" />
+    <state width="1383" height="239" key="GridCell.Tab.0.bottom" timestamp="1586248185991">
       <screen x="0" y="0" width="1426" height="911" />
     </state>
-    <state width="1383" height="239" key="GridCell.Tab.0.bottom/0.0.1426.911@0.0.1426.911" timestamp="1586243900229" />
-    <state width="1383" height="239" key="GridCell.Tab.0.center" timestamp="1586243900229">
+    <state width="1383" height="239" key="GridCell.Tab.0.bottom/0.0.1426.911@0.0.1426.911" timestamp="1586248185991" />
+    <state width="1383" height="239" key="GridCell.Tab.0.center" timestamp="1586248185991">
       <screen x="0" y="0" width="1426" height="911" />
     </state>
-    <state width="1383" height="239" key="GridCell.Tab.0.center/0.0.1426.911@0.0.1426.911" timestamp="1586243900229" />
-    <state width="1383" height="239" key="GridCell.Tab.0.left" timestamp="1586243900229">
+    <state width="1383" height="239" key="GridCell.Tab.0.center/0.0.1426.911@0.0.1426.911" timestamp="1586248185991" />
+    <state width="1383" height="239" key="GridCell.Tab.0.left" timestamp="1586248185990">
       <screen x="0" y="0" width="1426" height="911" />
     </state>
-    <state width="1383" height="239" key="GridCell.Tab.0.left/0.0.1426.911@0.0.1426.911" timestamp="1586243900229" />
-    <state width="1383" height="239" key="GridCell.Tab.0.right" timestamp="1586243900229">
+    <state width="1383" height="239" key="GridCell.Tab.0.left/0.0.1426.911@0.0.1426.911" timestamp="1586248185990" />
+    <state width="1383" height="239" key="GridCell.Tab.0.right" timestamp="1586248185991">
       <screen x="0" y="0" width="1426" height="911" />
     </state>
-    <state width="1383" height="239" key="GridCell.Tab.0.right/0.0.1426.911@0.0.1426.911" timestamp="1586243900229" />
-    <state x="388" y="33" key="SettingsEditor" timestamp="1586242866375">
+    <state width="1383" height="239" key="GridCell.Tab.0.right/0.0.1426.911@0.0.1426.911" timestamp="1586248185991" />
+    <state x="388" y="33" key="SettingsEditor" timestamp="1586249242874">
       <screen x="0" y="0" width="1426" height="911" />
     </state>
-    <state x="388" y="33" key="SettingsEditor/0.0.1426.911@0.0.1426.911" timestamp="1586242866375" />
-    <state x="485" y="159" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586243649148">
+    <state x="388" y="33" key="SettingsEditor/0.0.1426.911@0.0.1426.911" timestamp="1586249242874" />
+    <state x="485" y="159" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586246142560">
       <screen x="0" y="0" width="1426" height="911" />
     </state>
-    <state x="485" y="159" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1426.911@0.0.1426.911" timestamp="1586243649148" />
-    <state x="733" y="198" width="672" height="678" key="search.everywhere.popup" timestamp="1586242935229">
+    <state x="485" y="159" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1426.911@0.0.1426.911" timestamp="1586246142560" />
+    <state x="362" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1586247815960">
       <screen x="0" y="0" width="1426" height="911" />
     </state>
-    <state x="733" y="198" width="672" height="678" key="search.everywhere.popup/0.0.1426.911@0.0.1426.911" timestamp="1586242935229" />
+    <state x="362" y="212" width="672" height="678" key="search.everywhere.popup/0.0.1426.911@0.0.1426.911" timestamp="1586247815960" />
   </component>
 </project>

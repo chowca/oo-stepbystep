@@ -10,7 +10,8 @@ public class StudentTest {
     public void should_get_student_introduction() {
         String name = "Tom";
         int age = 18;
-        Student student = new Student(name,age);
-        assertThat(student.introduce(), is("My name is Tom. I am 18 years old. Coding for the glory of OOCL"));
+        int classNumber = 2;
+        Student student = new Student(name,age,classNumber);
+        assertThat(student.introduce(), is("My name is Tom. I am 18 years old. I am a student of class 2. Coding for the glory of OOCL."));
     }
 }
