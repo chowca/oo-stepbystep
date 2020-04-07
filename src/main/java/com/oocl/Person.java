@@ -25,6 +25,6 @@ public class Person {
     }
 
     public String introduce(){
-        return "My name is " + getName() + ". I am " + getAge() + " years old.";
+        return String.format("My name is %s. I am %s years old.",getName(), getAge());
     }
 }

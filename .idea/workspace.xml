@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dad6b1ea-1f37-48a3-b7b2-bd2dfc82c777" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/oocl/ClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/ClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/ClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/ClassTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +66,38 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClassTest.should_get_class_detail">
+  <component name="RunManager" selected="JUnit.com.oocl in oo-stepbystep">
+    <configuration name="ClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.ClassTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassTest.should_announce_leader_by_other_students" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.ClassTest" />
+      <option name="METHOD_NAME" value="should_announce_leader_by_other_students" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClassTest.should_get_class_detail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
@@ -78,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassTest.should_get_class_introduction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassTest.should_welcome_by_other_students" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -88,38 +124,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
       <option name="MAIN_CLASS_NAME" value="com.oocl.ClassTest" />
-      <option name="METHOD_NAME" value="should_get_class_introduction" />
+      <option name="METHOD_NAME" value="should_welcome_by_other_students" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeacherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oo-stepbystep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.oocl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.TeacherTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeasherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oo-stepbystep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.oocl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.TeasherTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ClassTest.should_get_class_detail" />
-        <item itemvalue="JUnit.ClassTest.should_get_class_introduction" />
         <item itemvalue="JUnit.com.oocl in oo-stepbystep" />
-        <item itemvalue="JUnit.TeacherTest" />
-        <item itemvalue="JUnit.TeasherTest" />
+        <item itemvalue="JUnit.ClassTest" />
+        <item itemvalue="JUnit.ClassTest.should_announce_leader_by_other_students" />
+        <item itemvalue="JUnit.ClassTest.should_get_class_detail" />
+        <item itemvalue="JUnit.ClassTest.should_welcome_by_other_students" />
       </list>
     </recent_temporary>
   </component>
@@ -169,26 +175,42 @@
       <screen x="0" y="0" width="1426" height="911" />
     </state>
     <state x="306" y="114" key="#Project_Structure/0.0.1426.911@0.0.1426.911" timestamp="1586241639379" />
-    <state x="519" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1586246485584">
+    <state x="519" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1586273310291">
       <screen x="0" y="0" width="1426" height="911" />
     </state>
-    <state x="519" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1426.911@0.0.1426.911" timestamp="1586246485584" />
-    <state width="1383" height="239" key="GridCell.Tab.0.bottom" timestamp="1586248185991">
+    <state x="519" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1426.911@0.0.1426.911" timestamp="1586273310291" />
+    <state width="1383" height="239" key="GridCell.Tab.0.bottom" timestamp="1586275764982">
       <screen x="0" y="0" width="1426" height="911" />
     </state>
-    <state width="1383" height="239" key="GridCell.Tab.0.bottom/0.0.1426.911@0.0.1426.911" timestamp="1586248185991" />
-    <state width="1383" height="239" key="GridCell.Tab.0.center" timestamp="1586248185991">
+    <state width="1383" height="239" key="GridCell.Tab.0.bottom/0.0.1426.911@0.0.1426.911" timestamp="1586275764982" />
+    <state width="1383" height="239" key="GridCell.Tab.0.center" timestamp="1586275764982">
       <screen x="0" y="0" width="1426" height="911" />
     </state>
-    <state width="1383" height="239" key="GridCell.Tab.0.center/0.0.1426.911@0.0.1426.911" timestamp="1586248185991" />
-    <state width="1383" height="239" key="GridCell.Tab.0.left" timestamp="1586248185990">
+    <state width="1383" height="239" key="GridCell.Tab.0.center/0.0.1426.911@0.0.1426.911" timestamp="1586275764982" />
+    <state width="1383" height="239" key="GridCell.Tab.0.left" timestamp="1586275764982">
       <screen x="0" y="0" width="1426" height="911" />
     </state>
-    <state width="1383" height="239" key="GridCell.Tab.0.left/0.0.1426.911@0.0.1426.911" timestamp="1586248185990" />
-    <state width="1383" height="239" key="GridCell.Tab.0.right" timestamp="1586248185991">
+    <state width="1383" height="239" key="GridCell.Tab.0.left/0.0.1426.911@0.0.1426.911" timestamp="1586275764982" />
+    <state width="1383" height="239" key="GridCell.Tab.0.right" timestamp="1586275764982">
       <screen x="0" y="0" width="1426" height="911" />
     </state>
-    <state width="1383" height="239" key="GridCell.Tab.0.right/0.0.1426.911@0.0.1426.911" timestamp="1586248185991" />
+    <state width="1383" height="239" key="GridCell.Tab.0.right/0.0.1426.911@0.0.1426.911" timestamp="1586275764982" />
+    <state width="1383" height="296" key="GridCell.Tab.1.bottom" timestamp="1586275390638">
+      <screen x="0" y="0" width="1426" height="911" />
+    </state>
+    <state width="1383" height="296" key="GridCell.Tab.1.bottom/0.0.1426.911@0.0.1426.911" timestamp="1586275390638" />
+    <state width="1383" height="296" key="GridCell.Tab.1.center" timestamp="1586275390638">
+      <screen x="0" y="0" width="1426" height="911" />
+    </state>
+    <state width="1383" height="296" key="GridCell.Tab.1.center/0.0.1426.911@0.0.1426.911" timestamp="1586275390638" />
+    <state width="1383" height="296" key="GridCell.Tab.1.left" timestamp="1586275390638">
+      <screen x="0" y="0" width="1426" height="911" />
+    </state>
+    <state width="1383" height="296" key="GridCell.Tab.1.left/0.0.1426.911@0.0.1426.911" timestamp="1586275390638" />
+    <state width="1383" height="296" key="GridCell.Tab.1.right" timestamp="1586275390638">
+      <screen x="0" y="0" width="1426" height="911" />
+    </state>
+    <state width="1383" height="296" key="GridCell.Tab.1.right/0.0.1426.911@0.0.1426.911" timestamp="1586275390638" />
     <state x="388" y="33" key="SettingsEditor" timestamp="1586249242874">
       <screen x="0" y="0" width="1426" height="911" />
     </state>

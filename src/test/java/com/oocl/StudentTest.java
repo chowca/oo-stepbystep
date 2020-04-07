@@ -11,7 +11,8 @@ public class StudentTest {
         String name = "Tom";
         int age = 18;
         int classNumber = 2;
-        Student student = new Student(name,age,classNumber);
+        Student student = new Student(name,age);
+        student.setClassNumber(classNumber);
         assertThat(student.introduce(), is("My name is Tom. I am 18 years old. I am a student of class 2. Coding for the glory of OOCL."));
     }
 }

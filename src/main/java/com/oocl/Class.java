@@ -4,19 +4,14 @@ import java.util.ArrayList;
 
 public class Class {
     private int classNumber;
+    private Teacher teacher;
     private String description;
     private Student classLeader;
     private ArrayList<Student> classStudents;
 
-    public Class(int classNumber, String description) {
+    public Class(int classNumber) {
         this.classNumber = classNumber;
-        this.description = description;
-    }
-
-    public Class(int classNumber, String description, Student classLeader) {
-        this.classNumber = classNumber;
-        this.description = description;
-        this.classLeader = classLeader;
+        this.classStudents = new ArrayList<Student>();
     }
 
     public int getClassNumber() {
@@ -35,28 +30,15 @@ public class Class {
         this.description = description;
     }
 
-    public void joinClass(Student incomingStudent){
+    public void joinClass(final Student incomingStudent){
         if(!this.classStudents.contains(incomingStudent)) {
-            this.classStudents.add(incomingStudent);
-            incomingStudent.setClassNumber(this.getClassNumber());
-        }
-    }
-
-    public void quitClass(Student quitingStudent){
-        if(this.classStudents.contains(quitingStudent)) {
-            this.classStudents.remove(quitingStudent);
-            quitingStudent.setClassNumber(0);
-        }
-    }
-
-    public Student getClassStudnetInfo(String name) {
-
-            for (Student student : this.classStudents) {
-                if (student.getName().equals(name)) {
-                    return student;
-                }
+            this.teacher.welcome(incomingStudent,this);
+            for(Student classStudent : classStudents){
+                classStudent.welcome(incomingStudent,this);
             }
-            return null;
+            this.classStudents.add(incomingStudent);
+            incomingStudent.setClassNumber(classNumber);
+        }
     }
 
     public Student getClassLeader() {
@@ -64,6 +46,25 @@ public class Class {
     }
 
     public void setClassLeader(Student classLeader) {
-        this.classLeader = classLeader;
+        if(this.classStudents.contains(classLeader)) {
+            this.teacher.setLeaderAnnouncement(classLeader,this);
+            for(Student classStudent : classStudents){
+                classStudent.setLeaderAnnouncement(classLeader,this);
+                this.classLeader = classLeader;
+            }
+        }
+    }
+
+    public ArrayList<Student> getClassStudents() {
+        return classStudents;
+    }
+
+    public Teacher getTeacher() {
+        return teacher;
+    }
+
+    public void setTeacher(Teacher teacher) {
+        this.teacher = teacher;
+        teacher.setTaughtClass(this);
     }
 }
