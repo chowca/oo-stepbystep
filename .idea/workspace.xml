@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dad6b1ea-1f37-48a3-b7b2-bd2dfc82c777" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/ClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Class.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/ClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/ClassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="dad6b1ea-1f37-48a3-b7b2-bd2dfc82c777" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
