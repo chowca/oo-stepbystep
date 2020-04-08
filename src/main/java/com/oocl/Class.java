@@ -50,8 +50,8 @@ public class Class {
             this.teacher.setLeaderAnnouncement(classLeader,this);
             for(Student classStudent : classStudents){
                 classStudent.setLeaderAnnouncement(classLeader,this);
-                this.classLeader = classLeader;
             }
+            this.classLeader = classLeader;
         }
     }
 

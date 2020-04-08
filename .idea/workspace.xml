@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dad6b1ea-1f37-48a3-b7b2-bd2dfc82c777" name="Default Changelist" comment="" />
+    <list default="true" id="dad6b1ea-1f37-48a3-b7b2-bd2dfc82c777" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,6 +160,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="306" y="114" key="#Project_Structure" timestamp="1586241639379">
       <screen x="0" y="0" width="1426" height="911" />
@@ -201,6 +216,10 @@
       <screen x="0" y="0" width="1426" height="911" />
     </state>
     <state x="388" y="33" key="SettingsEditor/0.0.1426.911@0.0.1426.911" timestamp="1586249242874" />
+    <state x="409" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1586307635735">
+      <screen x="0" y="0" width="1426" height="911" />
+    </state>
+    <state x="409" y="280" key="com.intellij.ide.util.TipDialog/0.0.1426.911@0.0.1426.911" timestamp="1586307635735" />
     <state x="485" y="159" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586246142560">
       <screen x="0" y="0" width="1426" height="911" />
     </state>

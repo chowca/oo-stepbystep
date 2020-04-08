@@ -15,8 +15,8 @@ public class Student extends Person{
         return classNumber;
     }
 
-    public void setClassNumber(int classNo) {
-        this.classNumber = classNo;
+    public void setClassNumber(int classNumber) {
+        this.classNumber = classNumber;
     }
 
     @Override
